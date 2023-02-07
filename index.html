@@ -7,6 +7,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">        
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>discord</title>
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -20,23 +23,34 @@
             <header class="app_header debug_header header_flexbox">
                 <section class="clearfix header_menu debug_header_menu header_menu_flexbox">
                     <div class="logo padding debug_border flexbox">
-                         <i class="fa-brands fa-discord sx_text logo_login"></i>
+                         <i class="fa-brands fa-discord sx_text logo_login">
+                            <span id="discord_logo">DISCORD</span>
+                        </i>
                         
                 
                     </div>
                     <nav id="header_nav nav_flexbox">
-                        <a href="#" class="nav_link pl pr debug_border">Link</a>
-                        <a href="#" class="nav_link pl pr debug_border">Link</a>
-                        <a href="#" class="nav_link pl pr debug_border">Link</a>
-                        <a href="#" class="nav_link pl pr debug_border">Link</a>
-                        <a href="#" class="nav_link pl pr debug_border">Link</a>
+                        <a href="#" class="nav_link pl pr debug_border">Scarica</a>
+                        <a href="#" class="nav_link pl pr debug_border">Perchè Discord</a>
+                        <a href="#" class="nav_link pl pr debug_border">Nitro</a>
+                        <a href="#" class="nav_link pl pr debug_border">Sicurezza</a>
+                        <a href="#" class="nav_link pl pr debug_border">Assistenza</a>
                     </nav>
                     <div class="login pr debug_border flexbox">
-                        <h2 class="dx_text logo_login">Login</h2>
+                        <h2 id="accedi" class="dx_text logo_login">Accedi</h2>
                     </div>
                 </section>
-                <section class="debug_headsection headsection_flexbox" id="header_section">
-                    
+
+
+                <section class="headsection_flexbox" id="header_section">
+                    <h1 id="the_place">Il tuo posto per parlare</h1>
+                      <p id="description">Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale o semplicemente un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende più facile chiaccherare ogni giorno e ritrovarsi più spesso</p>
+                    <button class="btn_p btn_white">
+                        <i class="fa-solid fa-arrow-down"></i>
+                        Scarica per Mac
+                    </button>
+                    <button class="btn_p btn_black">Apri Discord nel tuo browser
+                    </button>
                 </section>
             </header>
             <!-- /.app_header -->
