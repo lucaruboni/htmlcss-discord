@@ -93,7 +93,7 @@
 }
 
 .fa-brands.fa-discord{
-    color: blanchedalmond;
+    color: white;
     font-size: 2rem;
 }
 
@@ -318,15 +318,19 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
     padding-right: 6rem;
+    width: 20rem;
 }
 
 
 .col_1, .col_2, .col_3, .col_4{
     float: left;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
 }
 
 .col_head{
     font-family: 'Roboto', sans-serif;
+    font-weight: 800;
     color: #7289d9;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -339,6 +343,7 @@
     border-bottom: 1px solid #7289d9;
     color: white;
     font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 .first_row{
@@ -370,25 +375,36 @@
     padding: 1rem 1rem;
 }
 
-.no_dot{
-    list-style: none;
+.col_li{
+    list-style-type: none;
 }
 
 .secondary_footer{
-    margin: 0 28rem;
+    width: 160vh;
 }
 
 #col_container{
     float: left;
 }
 
+ul{
+    list-style-type: none;
+}
+
+li{
+    padding: 0.8rem 0;
+}
 
 #secondary_footer_container{
-    width: auto;
     padding-top: 3rem;
     font-family: 'Roboto', sans-serif;
 }
 
 #last-button{
     font-family: 'Roboto', sans-serif;
+    padding: 0.5rem;
+    border-radius: 10px;
+    color: white;
+    background-color: #7289d9;
+    display: block;
 }
