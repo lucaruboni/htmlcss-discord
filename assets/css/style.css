@@ -37,6 +37,13 @@
     justify-content: center;
 }
 
+.ending_section_flexbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .foot_flexbox{
     display: flex;
     flex-direction: column;
@@ -51,6 +58,24 @@
 .container{
     display: flex;
     justify-content: center;
+    width: 100%;
+    margin: auto;
+}
+
+.header_container{
+    display: flex;
+    justify-content: center;
+}
+
+.square_flexbox{
+    display: flex;
+}
+
+.big_card_bottom_flexbox{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
 }
 
        /* UTILITIES */
@@ -98,6 +123,7 @@
     font-family: 'Roboto', sans-serif;
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    box-shadow: 0 0 2rem #0a1894f3 ;
 }
 
 .header_menu{
@@ -167,19 +193,54 @@
 }
 
 .small_square{
-    width: 100%;
-    background-color: blueviolet;
-    float: left;
-   
-    
+    width: 50vh;
+    float: left;  
 }
 
 .big_square{
-    width: 580px;
-    height: 350px;
-    background-color: cornflowerblue;
+
     float: left;
-    flex-shrink: 1;
+    height: 50vh;
+}
+
+.img_size{
+    flex-grow: 2;
+}
+
+
+.card_title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.9rem;
+    padding-top: 9vh;
+
+}
+
+.card_p{
+    padding-top: 5vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+
+}
+
+.card_p2{
+    padding-top: 5vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+.card_title_bottom{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.9rem;
+    text-align: center;
+
+}
+
+
+#stars{
+    width: 100vh;
 }
 
 .main_padding{
@@ -195,17 +256,24 @@
 
 .first_section, .second_section{
     width: 1140px;
-    
-   
-   
 }
 
 #ending_square{
-    width: 1100px;
-    height: 600px;
-    background-color: mediumseagreen;
+    width: 200vh;
+    display: flex;
+    flex-direction: column;
+
 }
 
+.ending_img{
+    width: 90%;
+}
+
+.card_top_text{
+    text-align: center;
+    width: 170vh;
+    margin: auto;
+}
 
 .app_footer{
     height: auto;
