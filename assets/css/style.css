@@ -209,6 +209,22 @@
     
 }
 
+.container_bg{
+    background-color: antiquewhite;
+}
+
+.wave_top{
+    color: antiquewhite;
+    margin-bottom: -10px;
+}
+
+.wave_bottom{
+    color: antiquewhite;
+    margin-top: -10px;
+    rotate: 180deg;
+}
+
+
 .small_square{
     width: 50vh;
     float: left;  
